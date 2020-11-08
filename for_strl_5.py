@@ -3,6 +3,6 @@ print("Utilizînd ciclul FOR elaboraţi un program care să calculeze suma numer
 s=0
 n=int(input("Dati un numar: "))
 for n in range(1,n,1):
-    if ((n%3==0)or(n%5==0)):
+    if ((n%3==0)and(n%5==0)):
          s+=n
 print(s)
